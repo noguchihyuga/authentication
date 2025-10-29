@@ -36,7 +36,7 @@
         if (prams.get("key")) {
             textbox.innerHTML = prams.get("key")
         } else if (prams.get("redirect")) {
-            abc = "https://link4m.com/"+ prams.get("redirect")
+            abc = prams.get("redirect")
         }
         async function copyToClipboard() {
         try {
@@ -56,4 +56,5 @@
         }
     </script>
 </body>
+
 </html>
